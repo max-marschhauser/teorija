@@ -11,17 +11,17 @@ TYPESCRIPT
 https://radixweb.com/blog/typescript-vs-javascript
 
 
-
 TESTING FRAMEWORK - jest vs. mocha
 https://dev.to/heroku/comparing-the-top-3-javascript-testing-frameworks-2cco
 
 MODULE BUNLDER - webpack
 https://auth0.com/blog/webpack-a-gentle-introduction/
 
+PACKAGE MANAGER - npm vs. Yarn
+https://www.whitesourcesoftware.com/free-developer-tools/blog/npm-vs-yarn-which-should-you-choose/
 
 
 POSTAVLJANJE STANICA ZA INTERNET
-
 Github pages
 Netlify
 Samo za statične stranice (bez baza podataka i slično)
