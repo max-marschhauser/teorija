@@ -1,0 +1,32 @@
+TERMINAL COMMANDS EVERY DEVELOPER SHOULD KNOW:
+pwd --> kaže u kojem se folderu nalazim (direktoriju)
+ls --> pokaže sadržaj foldera
+ls -al --> prikazuje detaljne informacije o datotekama unutar foldera
+ls -a --> pokazuje i skrivene fileove
+clear --> očisti ekran
+cd --> change directory --> samo cd bez ičega vrati do home foldera
+cd directory/ --> s tabom mogu završiti naziv foldera kad ga započnem pisati
+cd .. --> micanje jedan folder gore
+cd - --> vrati tamo gdje sam prije bio
+cd test/directory/ --> može se i ovako pisati
+cd home/kyle/ -->može i ovako
+mkdir new-folder --> make directory
+touch new-file.txt --> create new file
+cp new-file.txt new-folder/new-file-copy.txt --> uzme file i kopira ga u novi folder i da mu novo ime
+mv new-file-copy.txt ../ new-file-copy.txt --> move file u gornji folder
+mv new-file.txt file-2.txt --> pomicanje u isti folder u kojem se već nalazi se koristi da bi se preimenovao file
+rm new-file.txt --> briše file
+rm -r new-folder --> obriše folder i sve što se u njemu nalazi (pripaziti na foldere koje se nalaze u onome u kojem se nalazim, da ne bi puno toga obrisao)
+
+nano new-file.txt --> otvara editor za uređivanje datoteka
+cat new-file.txt --> ispiše sadržaj datoteke
+cat new-file.txt file-2.txt --> ispiše sadržaj obje datoteke
+cat new-file.txt file-2.txt > file-3.txt --> uzme sadržaj obje datoteke i napravi novu datoteku i sadržaj stavi u nju jedan poslije drugoga
+ls > file-3.txt --> uzme sadržaj foldera i ispiše ga u datoteku
+echo HI --> ispisat će tekst HI
+echo HI > file-3.txt --> izbriše sve u fileu i upiše HI
+echo HI >> file-3.txt --> dodaje HI na kraj filea
+
+man ls --> daje dokumentaciju o naredbi, što ona radi i kako se može koristiti
+
+ctrl + C --> kad sam u dugom procesu, ova kombinacija zatvara taj proces
