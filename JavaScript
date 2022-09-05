@@ -20,3 +20,13 @@ SETS
 MAPS
 STRICT MODE
 CLASSES
+
+Rest and spread operator
+
+Window.requestAnimatedFrame
+
+Import { nekaVarijablaIliFunkcija as novoIme } from './file.js'
+
+If(confirm("want to try again?")) {
+Window.location = '/';
+}
