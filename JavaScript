@@ -1,31 +1,19 @@
-SPREAD OPERATOR
 CONSTRUCTOR FUNCTION
 USE GETTERS AND SETTERS TO CONTROL ACCESS TO AN OBJECT
-MODULES
 PROTOTYPE AND PROTOTYPAL INHERITANCE
 INSTANCE METHODS
 moment.js - time menagements library
 instanceof
-SYNCHRONOUS AND ASYNCHRONOUS (async await, promises, callbacks, setTimeOut, setInterval)
-DOM WEB APis
 LOCAL STORAGE
 SESSION STORAGE
-ESM
-CJS MODULES
 THIS keyword
 BIND, CALL, APPLY
 https://github.com/leonardomso/33-js-concepts#1-call-stack
-ITERABLES
 SETS
 MAPS
 STRICT MODE
-CLASSES
-
-Rest and spread operator
 
 Window.requestAnimatedFrame
-
-Import { nekaVarijablaIliFunkcija as novoIme } from './file.js'
 
 If(confirm("want to try again?")) {
 Window.location = '/';
