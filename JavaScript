@@ -1,18 +1,3 @@
-CONSTRUCTOR FUNCTION
-USE GETTERS AND SETTERS TO CONTROL ACCESS TO AN OBJECT
-PROTOTYPE AND PROTOTYPAL INHERITANCE
-INSTANCE METHODS
-moment.js - time menagements library
-instanceof
-LOCAL STORAGE
-SESSION STORAGE
-THIS keyword
-BIND, CALL, APPLY
-https://github.com/leonardomso/33-js-concepts#1-call-stack
-SETS
-MAPS
-STRICT MODE
-
 Window.requestAnimatedFrame
 
 If(confirm("want to try again?")) {
