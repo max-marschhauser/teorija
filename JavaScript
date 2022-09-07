@@ -1,7 +1,0 @@
-Window.requestAnimatedFrame
-
-If(confirm("want to try again?")) {
-Window.location = '/';
-}
-
-setTimeout(myCallback, 3000);
