@@ -11,3 +11,6 @@ POSTAVLJANJE STANICA ZA INTERNET
 Github pages
 Netlify
 Samo za statične stranice (bez baza podataka i slično)
+
+CAROUSEL CSS
+https://a11yslider.js.org/
