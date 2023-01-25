@@ -28,7 +28,7 @@ a:is(:hover, :focus){
 
 :has() --> parent selector
 
-.example3:has(img){
+.example3:has(img) > h1{
 
 }
 // ako parent s klasom example3 ima u sebi img tag, onda će se stil primijeniti na parenta (.example3)
