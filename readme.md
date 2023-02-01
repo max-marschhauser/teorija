@@ -1,3 +1,9 @@
+TEORIJA
+
+html{
+color-scheme: dark light;
+}
+
 CSS SELECTORS:
 
 li:marker{
