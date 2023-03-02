@@ -20,7 +20,7 @@ any, never, unknown, undefined, null
 
 Array
 const names: string[] = [];
-const names: readonly string[] = ["Dylan"];
+const names: only string[] = ["Dylan"];
 
 Tuple
 A tuple is a typed array with a pre-defined length and types for each index.
