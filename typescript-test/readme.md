@@ -12,6 +12,9 @@ REACT
 
 TYPESCRIPT
 
+TYPESCRIPT with REACT using CreateReactApp
+npx create-react-app . --template typescript
+
 Simple types
 let firstName: string = "Dylan";
 
@@ -107,3 +110,6 @@ Casting
 Casting is a process of overriding a type
 let x: unknown = 'hello';
 console.log((x as string).length);
+
+Generics
+Placeholders for type <T>
