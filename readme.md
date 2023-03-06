@@ -4,6 +4,14 @@ na slike mogu staviti filter i neki efekt, a onda kod hovera mogu napraviti da s
 
 na ikone mogu staviti filter:invert(100%) za problem light i dark moda
 
+.menu_items:hover > .menu_item {
+opacity:0.3;
+}
+.menu_items:hover > menu_item:hover{
+opacity: 1;
+}
+// napravi da element koji se hovera ostane sa opacity 1, a da se ostali zatamne (opacity .3)
+
 REACT
 
 <suspense fallback={<div>Loading...}>
