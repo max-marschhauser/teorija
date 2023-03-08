@@ -92,6 +92,13 @@ West = "West"
 
 Aliases and Interfaces
 Aliases and Interfaces allows types to be easily shared between different variables/objects.
+Aliases --> definira jednostavni custom type
+Interfaces --> isto kao alias samo što je za objekte
+
+type Employee = { napisati sve što ide u objekt };
+let employee : Employee = {
+ispuniti podatke za pojedinog zaposlenika
+}
 
 Union types
 Union types are used when a value can be more than a single type. Such as when a property would be string or number.
@@ -121,3 +128,78 @@ console.log((x as string).length);
 
 Generics
 Placeholders for type <T>
+
+Literal type --> varijabla može biti samo neka vrijednost i ništa više
+type Quantity = 50 | 100;
+let quantity : Quantity = 100;
+
+TYPESCRIPT AND REACT
+HANDLING STATE
+
+const [number, setNumber] = useState<number | string>(5);
+
+// zbog exporta ga stavim izvan glavne funkcije
+esport interface IState {
+people: {
+name: string,
+age: number,
+url: string,
+note?: string
+}[]
+}
+const [people, setPeople] = useState<IsState["people"]>([])
+
+HANDLING PROPS
+u functional component staviti
+
+import { IState as IProps } from "../App"
+
+const List: ReactFC<Iprops> = ({ people }) => {}
+
+HANDLING FUNCTIONS
+
+kad imam map funkciju za neki data, mogu napraviti funkciju koja će returnati map podatke, a u html dio ju samo pozovem, npr.
+
+<ul>
+    {renderList()}
+</ul>
+
+a na drugom mjestu napravim renderList funkciju
+const renderList = (): JSX.Element[] => {
+return people.map((person) => {
+return(
+
+<div>person.name</div>
+)
+})
+}
+
+HANDLING EVENTS
+
+const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>): void => {
+setInput({
+...input, [e.target.name]: e.target.value;
+})
+}
+
+const handleClick = (): void => {
+}
+
+PROPS AND STATE
+
+<AddToList people={people} setPeople={setPeople}>
+
+a onda u Functional komponenti
+
+import { IState as Props } from "../App"
+
+interface IProps{
+people: Props["people"]
+setPeople: React.Dispatch<React.SetStateAction<Props["people"]>>
+}
+
+const AddToList: React.FC<IProps> = ( { people, setPeople }) => {...}
+
+USEREF
+const inputRef = useRef<HTMLInputElement>(null);
+<input ref={useRef} />
