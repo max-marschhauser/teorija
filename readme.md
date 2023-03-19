@@ -8,22 +8,6 @@ REACT
 <neka asynchronous komponenta, poput fetch data>
 </suspense>
 
-TYPESCRIPT
-
-Aliases and Interfaces
-Aliases and Interfaces allows types to be easily shared between different variables/objects.
-Aliases --> definira jednostavni custom type
-Interfaces --> isto kao alias samo što je za objekte
-
-type Employee = { napisati sve što ide u objekt };
-let employee : Employee = {
-ispuniti podatke za pojedinog zaposlenika
-}
-
-Union types
-Union types are used when a value can be more than a single type. Such as when a property would be string or number.
-let code: string | number
-
 TYPESCRIPT AND REACT
 HANDLING STATE
 
