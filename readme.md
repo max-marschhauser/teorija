@@ -4,3 +4,4 @@
 -   error function
 -   closures
 -   async / await
+-   redux (state menagement)
