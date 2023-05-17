@@ -1,7 +1,3 @@
 -   JS Prototyp
--   REST
--   get, post, put, patch
 -   error function
--   closures
 -   async / await
--   redux (state menagement)
