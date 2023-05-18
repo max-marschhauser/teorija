@@ -1,3 +1,0 @@
--   JS Prototyp
--   error function
--   async / await
