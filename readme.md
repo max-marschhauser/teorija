@@ -10,3 +10,6 @@ http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential
 https://bluepnume.medium.com/learn-about-promises-before-you-start-using-async-await-eb148164a9c8
 http://javascriptissexy.com/12-simple-yet-powerful-javascript-tips/
 http://javascriptissexy.com/learn-intermediate-and-advanced-javascript/
+
+React razno
+https://github.com/enaqx/awesome-react
