@@ -11,3 +11,7 @@ https://flutterbyexample.com/lesson/getters-and-setters
 https://appvesto.medium.com/flutter-what-is-context-ef2ed6dc7162
 https://blog.logrocket.com/provider-vs-riverpod-comparing-state-managers-in-flutter/
 https://docs.flutter.dev/deployment/android
+
+Provider i State rebuilder.
+
+GraphQL
